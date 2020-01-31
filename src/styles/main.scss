@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  font-family: 'Bebas Neue', Arial, sans-serif;
+}
+
+.text-lead {
+  &__heading-hero {
+    font-size: 6rem;
+  }
+}
+
+.color {
+  &__dark-pink {
+    color: #EF7E94;
+  }
+  &__light-pink {
+    color: #FFDCE3;
+  }
+  &__dark-blue {
+    color: #26A4BB;
+  }
+  &__light-blue {
+    color: #D6F7FD;
+  }
+}
