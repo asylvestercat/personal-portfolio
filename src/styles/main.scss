@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 p {
   font-family: "Times New Roman", Times, serif;
 }
 h1 {
+  font-family: 'Bebas Neue', Arial, sans-serif;
+}
+h2 {
   font-family: 'Bebas Neue', Arial, sans-serif;
 }
 
@@ -25,5 +29,20 @@ h1 {
   }
   &__light-blue {
     color: #D6F7FD;
+  }
+}
+
+.background {
+  &__dark-pink {
+    background-color: #EF7E94;
+  }
+  &__light-pink {
+    background-color: #FFDCE3;
+  }
+  &__dark-blue {
+    background-color: #26A4BB;
+  }
+  &__light-blue {
+    background-color: #D6F7FD;
   }
 }
