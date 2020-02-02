@@ -22,7 +22,7 @@
 <style lang="scss">
 
   .portfolio__divide {
-    height: 400px;
+    height: 340px;
 
     &--text-left {
       position: absolute;
