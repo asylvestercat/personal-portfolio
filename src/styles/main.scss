@@ -13,11 +13,21 @@ h2 {
 p {
   font-family: 'Lato', Arial, sans-serif;
 }
+a:hover {
+  color: white !important;
+  text-decoration: none;
+}
 
 
 .text {
   &__heading-hero {
     font-size: 4rem;
+    @media screen and (max-width: 991px) {
+      font-size: 3rem;
+    }
+  }
+  &__heading-lead {
+    font-size: 3rem;
   }
   &__sub-heading {
     font-size: 1.3rem;
@@ -27,6 +37,9 @@ p {
 .color {
   &__light-gray {
     color: #CACACA;
+  }
+  &__medium-gray {
+    color: #A2A2A2;
   }
   &__dark-pink {
     color: #EF7E94;
@@ -59,6 +72,7 @@ p {
 
 .asset {
   &__btn {
+    cursor: pointer;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -69,5 +83,11 @@ p {
     min-width: 143px;
     min-height: 45px;
     box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.15);
+
+    @media screen and (max-width: 991px) {
+      min-width: 113px;
+      min-height: 38px;
+      font-size: 0.8rem;
+    }
   }
 }

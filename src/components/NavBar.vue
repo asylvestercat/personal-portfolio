@@ -20,11 +20,13 @@
 
   .portfolio__nav {
     height: 100%;
-    background-color: white;
     position: fixed;
     z-index: 10;
     display: flex;
     align-items: center;
+    @media screen and (max-width: 450px) {
+      display: none;
+    }
   }
   .portfolio__nav ul {
     box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.15);
@@ -32,8 +34,10 @@
     display: inline-grid;
     margin: 10px 15px;
     padding: 25px 10px 25px 10px;
+    background-color: white;
   }
   .portfolio__nav li {
+    cursor: pointer;
     text-align: center;
     display: inline;
     margin-top: 20px;

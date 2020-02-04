@@ -1,24 +1,29 @@
 <template>
-  <b-container class="portfolio__hero">
+  <b-container class="portfolio__home">
     <b-row align-v="center" class="text-left">
-      <b-col cols="7">
-        <div class="portfolio__hero--heading">
+      <b-col cols="12">
+        <div class=" text-center d-md-none">
+          <img class="portfolio__home--bubbles--image--mobile" src="../assets/img/anna-bubbles.svg" />
+        </div>
+      </b-col>
+      <b-col cols="12" md="7">
+        <div class="portfolio__home--heading text-center text-md-left">
           <h1 class="text__heading-hero color__light-gray">
             Hello,
             <br />
             I'm <span class="color__dark-blue">Anna Sylvester</span>.
           </h1>
-          <p class="text__sub-heading color__light-gray text-right">
+          <p class="text__sub-heading color__light-gray text-center text-md-right">
             front end developer | designer
           </p>
-          <div class="text-right mt-4">
-            <div class="asset__btn">CONTACT</div>
+          <div class="text-center text-md-right mt-4">
+            <a href="mailto:annaleesylvester@gmail.com"><div class="asset__btn">CONTACT</div></a>
           </div>
         </div>
       </b-col>
-      <b-col cols="5">
-        <div class="portfolio__hero--image text-center">
-          <img src="../assets/img/anna-bubbles.svg" />
+      <b-col cols="5" class="d-none d-md-block">
+        <div class="portfolio__home--bubbles text-center">
+          <img class="portfolio__home--bubbles--image" src="../assets/img/anna-bubbles.svg" />
         </div>
       </b-col>
     </b-row>
@@ -27,18 +32,28 @@
 
 <script>
     export default {
-        name: 'PortfolioHero',
+        name: 'Home',
     }
 </script>
 
 <style lang="scss">
 
-  .portfolio__hero {
+  .portfolio__home {
     padding-top: 6rem;
+    @media screen and (max-width: 991px) {
+      padding-top: 3rem;
+    }
 
     &--heading {
       width: 412px;
       margin: 9rem 0 0 5rem;
+      @media screen and (max-width: 991px) {
+        margin-left: 3rem;
+        width: 308px;
+      }
+      @media screen and (max-width: 767px) {
+        margin: 3rem auto;
+      }
     }
 
     &--container{
@@ -50,8 +65,15 @@
       text-align: center;
     }
 
-    &--image {
-      /*max-width: 200px;*/
+    &--bubbles {
+      margin-top: 4rem;
+
+      &--image {
+        width: 80%;
+        &--mobile {
+          width: 50%;
+        }
+      }
     }
   }
 
