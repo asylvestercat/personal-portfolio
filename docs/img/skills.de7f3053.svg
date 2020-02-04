@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="784px" height="242px" viewBox="0 0 784 242" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home/front-end-" transform="translate(-292.000000, -1964.000000)">
+            <g id="Group-7" transform="translate(292.000000, 1964.000000)">
+                <circle id="Oval" fill="#EF7E94" cx="55.5" cy="58.5" r="55.5"></circle>
+                <text id="Vue" font-family="Lato-Regular, Lato" font-size="36" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="25" y="73">Vue</tspan>
+                </text>
+                <circle id="Oval" fill="#EF7E94" cx="400.5" cy="186.5" r="55.5"></circle>
+                <text id="React" font-family="Lato-Regular, Lato" font-size="28.8" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="366" y="198">React</tspan>
+                </text>
+                <circle id="Oval" fill="#EF7E94" cx="195.5" cy="58.5" r="55.5"></circle>
+                <text id="HTML" font-family="Lato-Regular, Lato" font-size="28.8" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="155" y="70">HTML</tspan>
+                </text>
+                <circle id="Oval" fill="#EF7E94" cx="335.5" cy="56.5" r="55.5"></circle>
+                <text id="CSS" font-family="Lato-Regular, Lato" font-size="28.8" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="310" y="66">CSS</tspan>
+                </text>
+                <circle id="Oval" fill="#EF7E94" cx="465.5" cy="59.5" r="55.5"></circle>
+                <text id="SASS" font-family="Lato-Regular, Lato" font-size="28.8" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="433" y="71">SASS</tspan>
+                </text>
+                <circle id="Oval" fill="#EF7E94" cx="124.5" cy="185.5" r="55.5"></circle>
+                <text id="GIT" font-family="Lato-Regular, Lato" font-size="28.8" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="101" y="195">GIT</tspan>
+                </text>
+                <circle id="Oval" fill="#EF7E94" cx="265.5" cy="186.5" r="55.5"></circle>
+                <text id="Angular" font-family="Lato-Regular, Lato" font-size="28.8" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="215" y="196">Angular</tspan>
+                </text>
+                <circle id="Oval" fill="#26A4BB" cx="728.5" cy="55.5" r="55.5"></circle>
+                <text id="Ai" font-family="Lato-Regular, Lato" font-size="59.2" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="699" y="77">Ai</tspan>
+                </text>
+                <circle id="Oval" fill="#26A4BB" cx="595.5" cy="58.5" r="55.5"></circle>
+                <text id="Sketch" font-family="Lato-Regular, Lato" font-size="32" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="549" y="71">Sketch</tspan>
+                </text>
+                <circle id="Oval" fill="#26A4BB" cx="529.5" cy="185.5" r="55.5"></circle>
+                <text id="Ps" font-family="Lato-Regular, Lato" font-size="59.2" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="497" y="205">Ps</tspan>
+                </text>
+                <circle id="Oval" fill="#26A4BB" cx="669.5" cy="185.5" r="55.5"></circle>
+                <text id="Id" font-family="Lato-Regular, Lato" font-size="59.2" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="644" y="204">Id</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

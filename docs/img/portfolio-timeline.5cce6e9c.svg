@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1093px" height="209px" viewBox="0 0 1093 209" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home/front-end-" transform="translate(-173.000000, -1261.000000)">
+            <g id="Group-9" transform="translate(173.000000, 1256.000000)">
+                <g id="Group-6" transform="translate(125.000000, 0.000000)">
+                    <text id="Furman-University" font-family="Lato-Regular, Lato" font-size="28" font-weight="normal" fill="#A2A2A2">
+                        <tspan x="32" y="28">Furman</tspan>
+                        <tspan x="32" y="62">University</tspan>
+                    </text>
+                    <circle id="Oval" fill="#EF7E94" cx="9.5" cy="18.5" r="9.5"></circle>
+                    <text id="FUSAB" font-family="Lato-Regular, Lato" font-size="28" font-weight="normal" fill="#A2A2A2">
+                        <tspan x="251" y="28">FUSAB</tspan>
+                    </text>
+                    <circle id="Oval" fill="#D6F7FD" cx="228.5" cy="18.5" r="9.5"></circle>
+                    <text id="GA-Tech-Coding-Bootc" font-family="Lato-Regular, Lato" font-size="28" font-weight="normal" line-spacing="30" fill="#A2A2A2">
+                        <tspan x="473" y="28">GA Tech Coding </tspan>
+                        <tspan x="473" y="58">Bootcamp</tspan>
+                    </text>
+                    <circle id="Oval" fill="#FFDCE3" cx="452.5" cy="18.5" r="9.5"></circle>
+                    <text id="BitPay" font-family="Lato-Regular, Lato" font-size="28" font-weight="normal" fill="#A2A2A2">
+                        <tspan x="747" y="28">BitPay</tspan>
+                    </text>
+                    <circle id="Oval" fill="#26A4BB" cx="724.5" cy="18.5" r="9.5"></circle>
+                    <text id="B.A.-Graphic-Design" font-family="Lato-Regular, Lato" font-size="18" font-weight="normal" fill="#CACACA">
+                        <tspan x="32" y="92">B.A. Graphic Design</tspan>
+                    </text>
+                    <text id="Vice-President-of-Pu" font-family="Lato-Regular, Lato" font-size="18" font-weight="normal" fill="#CACACA">
+                        <tspan x="252" y="58">Vice President of</tspan>
+                        <tspan x="252" y="80">Public Relations</tspan>
+                    </text>
+                    <text id="MERN-Stack" font-family="Lato-Regular, Lato" font-size="18" font-weight="normal" fill="#CACACA">
+                        <tspan x="474" y="82">MERN Stack</tspan>
+                    </text>
+                    <text id="Front-End-Developer" font-family="Lato-Regular, Lato" font-size="18" font-weight="normal" fill="#CACACA">
+                        <tspan x="747" y="53">Front End</tspan>
+                        <tspan x="747" y="75">Developer</tspan>
+                    </text>
+                </g>
+                <g id="Group-8" transform="translate(0.000000, 133.000000)">
+                    <text id="2014" font-family="Lato-Regular, Lato" font-size="22" font-weight="normal" fill="#CACACA">
+                        <tspan x="99.48" y="80">2014</tspan>
+                    </text>
+                    <text id="2016" font-family="Lato-Regular, Lato" font-size="22" font-weight="normal" fill="#CACACA">
+                        <tspan x="376.48" y="80">2016</tspan>
+                    </text>
+                    <text id="2015" font-family="Lato-Regular, Lato" font-size="22" font-weight="normal" fill="#CACACA">
+                        <tspan x="244.48" y="80">2015</tspan>
+                    </text>
+                    <text id="2017" font-family="Lato-Regular, Lato" font-size="22" font-weight="normal" fill="#CACACA">
+                        <tspan x="521.48" y="80">2017</tspan>
+                    </text>
+                    <text id="2018" font-family="Lato-Regular, Lato" font-size="22" font-weight="normal" fill="#CACACA">
+                        <tspan x="666.48" y="80">2018</tspan>
+                    </text>
+                    <text id="2019" font-family="Lato-Regular, Lato" font-size="22" font-weight="normal" fill="#CACACA">
+                        <tspan x="804.48" y="80">2019</tspan>
+                    </text>
+                    <text id="2020" font-family="Lato-Regular, Lato" font-size="22" font-weight="normal" fill="#CACACA">
+                        <tspan x="942.48" y="80">2020</tspan>
+                    </text>
+                    <rect id="Rectangle" fill="#EF7E94" x="125" y="15" width="567" height="15"></rect>
+                    <rect id="Rectangle" fill="#FFDCE3" x="692" y="15" width="138" height="15"></rect>
+                    <rect id="Rectangle" fill="#D6F7FD" x="402" y="0" width="145" height="15"></rect>
+                    <rect id="Rectangle" fill="#26A4BB" x="830" y="15" width="145" height="15"></rect>
+                    <line x1="0" y1="30.5" x2="1093" y2="30.5" id="Path-9" stroke="#CACACA" stroke-width="2"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
