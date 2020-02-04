@@ -34,6 +34,7 @@
 <style lang="scss">
 
   .portfolio__hero {
+    padding-top: 6rem;
 
     &--heading {
       width: 412px;

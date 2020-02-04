@@ -1,19 +1,23 @@
 <template id="app">
   <div>
     <NavBar />
-    <router-view></router-view>
+    <Home id="home" />
+    <About id="about" />
   </div>
 </template>
 
 <script>
     import NavBar from './components/NavBar.vue';
-    // import PortfolioDivide from './components/portfolio--divide.vue'
+    import Home from './components/Home.vue';
+    import About from './components/About.vue'
+
 
     export default {
         name: 'App',
         components: {
-          NavBar
-            // PortfolioDivide
+            NavBar,
+            Home,
+            About
         }
     }
 </script>

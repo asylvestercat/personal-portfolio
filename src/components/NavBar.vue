@@ -1,11 +1,11 @@
 <template>
   <div class="portfolio__nav">
     <ul>
-      <li><a href="/"><img src="../assets/icons/icon--home.svg"/></a></li>
-      <li><a href="/about"><img src="../assets/icons/icon--about.svg"/></a></li>
-      <li><a href="/skills"><img src="../assets/icons/icon--skills.svg"/></a></li>
-      <li><a href="/work"><img src="../assets/icons/icon--work.svg"/></a></li>
-      <li><a href="/contact"><img src="../assets/icons/icon--contact.svg"/></a></li>
+      <li><a href="#home"><img src="../assets/icons/icon--home.svg"/></a></li>
+      <li><a href="#about"><img src="../assets/icons/icon--about.svg"/></a></li>
+      <li><a href="#skills"><img src="../assets/icons/icon--skills.svg"/></a></li>
+      <li><a href="#work"><img src="../assets/icons/icon--work.svg"/></a></li>
+      <li><a href="#contact"><img src="../assets/icons/icon--contact.svg"/></a></li>
     </ul>
   </div>
 </template>
@@ -20,7 +20,8 @@
 
   .portfolio__nav {
     height: 100%;
-    position: absolute;
+    background-color: white;
+    position: fixed;
     z-index: 10;
     display: flex;
     align-items: center;
