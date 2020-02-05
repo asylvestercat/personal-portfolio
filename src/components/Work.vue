@@ -16,6 +16,10 @@
               <img src="../assets/img/careers-page.png" class="portfolio__work--item--image" />
               <template v-slot:modal-footer>
                 <div class="w-100">
+                  <p class="color__medium-gray">Assignment:</p>
+                  <p>Research and develop a professional, yet fun careers page to attract new hires to BitPay.</p>
+                  <p class="color__medium-gray">Technology Used:</p>
+                  <p>Vue.js, Bootstrap Vue, Axios, JazzHR API, Adobe Illustrator, Sketch</p>
                 </div>
               </template>
             </b-modal>
@@ -31,6 +35,10 @@
             <img src="../assets/img/pricing-page.png" class="portfolio__work--item--image" />
             <template v-slot:modal-footer>
               <div class="w-100">
+                <p class="color__medium-gray">Assignment:</p>
+                <p>Research, design and develop a pricing page that clearly demonstrates BitPay's pricing model.</p>
+                <p class="color__medium-gray">Technology Used:</p>
+                <p>Vue.js, Bootstrap Vue, Adobe Illustrator, Sketch</p>
               </div>
             </template>
           </b-modal>
@@ -46,6 +54,70 @@
             <img src="../assets/img/404-page.png" class="portfolio__work--item--image" />
             <template v-slot:modal-footer>
               <div class="w-100">
+                <p class="color__medium-gray">Assignment:</p>
+                <p>Research, illustrate and develop a 404 page that is fun and redirects users back home.</p>
+                <p class="color__medium-gray">Technology Used:</p>
+                <p>Vue.js, Bootstrap Vue, Adobe Illustrator, Sketch</p>
+              </div>
+            </template>
+          </b-modal>
+        </div>
+      </b-col>
+    </b-row>
+    <b-row>
+      <b-col cols="12" md="4">
+        <div class="portfolio__work--item mx-auto text-center">
+          <div v-b-modal.modal-4 class="portfolio__work--item--button--gdpr mx-auto"></div>
+          <p class="text__sub-heading color__medium-gray mt-4">BitPay Cookies Manager</p>
+          <p class="color__light-gray">Research, Design and Development</p>
+          <b-modal id="modal-4" title="BitPay Cookies Manager">
+            <img src="../assets/img/gdpr-1.png" class="portfolio__work--item--image" />
+            <br /><br/>
+            <img src="../assets/img/gdpr-2.png" class="portfolio__work--item--image" />
+            <template v-slot:modal-footer>
+              <div class="w-100">
+                <p class="color__medium-gray">Assignment:</p>
+                <p>Research, design and develop a pop up banner and cookies manager to use across all BitPay applications.</p>
+                <p class="color__medium-gray">Technology Used:</p>
+                <p>Vanilla Javascript, CSS</p>
+              </div>
+            </template>
+          </b-modal>
+        </div>
+      </b-col>
+      <b-col cols="12" md="4">
+        <div class="portfolio__work--item mx-auto text-center">
+          <div v-b-modal.modal-5 class="portfolio__work--item--button--card mx-auto"></div>
+          <p class="text__sub-heading color__medium-gray mt-4">BitPay Card Page</p>
+          <p class="color__light-gray">Development</p>
+          <b-modal id="modal-5" title="BitPay Card Page">
+            <img src="../assets/img/card-page.png" class="portfolio__work--item--image" />
+            <template v-slot:modal-footer>
+              <div class="w-100">
+                <p class="color__medium-gray">Assignment:</p>
+                <p>Develop the new BitPay card page with ip geolocation functionality and Marketo forms.</p>
+                <p class="color__medium-gray">Technology Used:</p>
+                <p>Vue.js, Bootstrap Vue, Sketch, Marketo, Axios</p>
+              </div>
+            </template>
+          </b-modal>
+        </div>
+      </b-col>
+      <b-col cols="12" md="4">
+        <div class="portfolio__work--item mx-auto text-center">
+          <div v-b-modal.modal-6 class="portfolio__work--item--button--emails mx-auto"></div>
+          <p class="text__sub-heading color__medium-gray mt-4">BitPay Emails</p>
+          <p class="color__light-gray">Research, Design and Development</p>
+          <b-modal id="modal-6" title="BitPay Emails">
+            <img src="../assets/img/emails-1.png" class="portfolio__work--item--image" />
+            <br /><br />
+            <img src="../assets/img/emails-2.png" class="portfolio__work--item--image" />
+            <template v-slot:modal-footer>
+              <div class="w-100">
+                <p class="color__medium-gray">Assignment:</p>
+                <p>Design and re-skin 115 platform emails for brand consistency.</p>
+                <p class="color__medium-gray">Technology Used:</p>
+                <p>Handlebars</p>
               </div>
             </template>
           </b-modal>
@@ -137,6 +209,60 @@
         padding: 25px;
         background: url("../assets/icons/404-page--icon.png") no-repeat;
         background-size: 95% 107%;
+        border-radius: 10px;
+        @media screen and (max-width: 991px) and (min-width: 768px) {
+          width: 182px;
+          height: 175px;
+        }
+        &:focus {
+          outline-color: white;
+        }
+      }
+
+      &--button--gdpr {
+        cursor: pointer;
+        box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.15);
+        width: 290px;
+        height: 250px;
+        padding: 25px;
+        background: url("../assets/icons/gdpr--icon.png") no-repeat;
+        background-size: 100% 100%;
+        border-radius: 10px;
+        @media screen and (max-width: 991px) and (min-width: 768px) {
+          width: 182px;
+          height: 175px;
+        }
+        &:focus {
+          outline-color: white;
+        }
+      }
+
+      &--button--card {
+        cursor: pointer;
+        box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.15);
+        width: 290px;
+        height: 250px;
+        padding: 25px;
+        background: url("../assets/icons/card--icon.png") no-repeat;
+        background-size: 95% 107%;
+        border-radius: 10px;
+        @media screen and (max-width: 991px) and (min-width: 768px) {
+          width: 182px;
+          height: 175px;
+        }
+        &:focus {
+          outline-color: white;
+        }
+      }
+
+      &--button--emails {
+        cursor: pointer;
+        box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.15);
+        width: 290px;
+        height: 250px;
+        padding: 25px;
+        background: url("../assets/icons/emails--icon.png") no-repeat;
+        background-size: 100% 109%;
         border-radius: 10px;
         @media screen and (max-width: 991px) and (min-width: 768px) {
           width: 182px;
