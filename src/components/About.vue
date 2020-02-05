@@ -27,13 +27,11 @@
 <style lang="scss">
 
   .portfolio__about {
-    padding-top: 13rem;
+    padding-top: 15rem;
     padding-bottom: 4rem;
-    @media screen and (max-width: 991px) {
-      padding-top: 7rem;
-    }
+
     @media screen and (max-width: 450px) {
-      padding-top: 4rem;
+      padding-top: 1rem;
     }
 
     &--heading {
